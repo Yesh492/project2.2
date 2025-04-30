@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69705fd9.css",
+    "main.js": "/static/js/main.7a0d5885.js",
+    "static/media/sushrutha.png": "/static/media/sushrutha.8b10154ef2df47fd44db.png",
+    "static/media/yeshvanth.png": "/static/media/yeshvanth.7e691ccec6e5c8f44a65.png",
+    "static/media/Achyuth.png": "/static/media/Achyuth.d4bad1b98019d68c546e.png",
+    "static/media/jashwanth.png": "/static/media/jashwanth.1a5f7b68cc2a6e181db1.png",
+    "index.html": "/index.html",
+    "main.69705fd9.css.map": "/static/css/main.69705fd9.css.map",
+    "main.7a0d5885.js.map": "/static/js/main.7a0d5885.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69705fd9.css",
+    "static/js/main.7a0d5885.js"
+  ]
+}
