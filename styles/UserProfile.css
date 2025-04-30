@@ -1,0 +1,140 @@
+.user-profile-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.user-profile-title {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.user-profile-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.user-profile-avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4285f4;
+}
+
+.user-profile-avatar-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #757575;
+  border: 3px solid #4285f4;
+}
+
+.user-profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.user-profile-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.user-profile-item:hover {
+  background-color: #f1f3f4;
+}
+
+.user-profile-icon {
+  color: #4285f4;
+  margin-right: 16px;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.user-profile-label {
+  display: block;
+  font-size: 12px;
+  color: #757575;
+  margin-bottom: 4px;
+}
+
+.user-profile-value {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.user-profile-footer {
+  margin-top: 24px;
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.user-profile-uid {
+  font-size: 12px;
+  color: #757575;
+}
+
+.user-profile-loading {
+  text-align: center;
+  padding: 24px;
+  color: #757575;
+  font-size: 16px;
+}
+
+.user-profile-error {
+  text-align: center;
+  padding: 24px;
+  color: #d32f2f;
+  font-size: 16px;
+  background-color: #ffebee;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .user-profile-container {
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .user-profile-avatar img,
+  .user-profile-avatar-placeholder {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .user-profile-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .user-profile-item {
+    padding: 10px 12px;
+  }
+  
+  .user-profile-value {
+    font-size: 14px;
+  }
+}
